@@ -306,13 +306,13 @@ export default function RevenueCalculator() {
     block
     w-full
     text-center
-    py-8 px-4
+    py-4 px-4
     mt-4
     bg-[#10B981]
     text-white
     font-bold
     rounded-lg
-    shadow-lg
+    shadow-sm
     shadow-emerald-500/40
     hover:bg-[#0ea871]
     hover:shadow-emerald-500/60
@@ -321,7 +321,7 @@ export default function RevenueCalculator() {
     ease-in-out
   "
                 >
-                  Quero um projeto
+                  QUERO UM PROJETO!
                 </a>
 
               </CardContent>
