@@ -298,26 +298,32 @@ export default function RevenueCalculator() {
                 <p className="text-gray-400 mt-2">
                   Para cada R$ 1 investido, você retorna R$ {(results.revenue / investment[0]).toFixed(2)}
                 </p>
-                <button
+                <a
+                  href="https://obsidianmkt.com.br/?calculadora"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="
-        w-full
-        py-8 px-4
-        mt-4
-        bg-[#10B981]
-        text-white
-        font-bold
-        rounded-lg
-        shadow-lg
-        shadow-emerald-500/40
-        hover:bg-[#0ea871]
-        hover:shadow-emerald-500/60
-        transition
-        duration-300
-        ease-in-out
-      "
+    block
+    w-full
+    text-center
+    py-8 px-4
+    mt-4
+    bg-[#10B981]
+    text-white
+    font-bold
+    rounded-lg
+    shadow-lg
+    shadow-emerald-500/40
+    hover:bg-[#0ea871]
+    hover:shadow-emerald-500/60
+    transition
+    duration-300
+    ease-in-out
+  "
                 >
                   Quero um projeto
-                </button>
+                </a>
+
               </CardContent>
             </Card>
           </div>
